@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- minecraft inventory -->
+<inventory>
+  <items>
+    <item name="diamond" quantity="10" />
+    <item name="diamond_sword" quantity="1" />
+    <item name="stone_axe" quantity="1" />
+    <item name="iron_axe" quantity="5" />
+    <item name="string" quantity="32" />
+    <item name="wood_stick" quantity="64" />
+  </items>
+</inventory>
