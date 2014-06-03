@@ -52,13 +52,8 @@ namespace Console
                     case ".xml":
                         {
                             var xml = File.ReadAllText(file);
-
-                            var ns = new XmlSerializerNamespaces();
                             var serializer = new XmlSerializer(typeof(Inventory), "");
-
-                            ns.Add("", "");
                             var output = (Inventory)serializer.Deserialize(new StringReader(xml));
-
                             items = output.Items;
                         }
                         break;
